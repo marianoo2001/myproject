@@ -5,7 +5,8 @@ void main (void)
 	uint8_t pepe;
 	while(1)
 	{	
-		pepe=0;
+		if (pepe==0)
+		   StopMotor();
 	}
 
 }
